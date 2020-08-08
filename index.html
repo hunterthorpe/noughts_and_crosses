@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Noughts and Crosses</title>
+  </head>
+  <body>
+    <h1><span class="Hnought">Noughts</span> and <span class="Hcross">Crosses</span></h1>
+    <ul class="game">
+        <li class="blank" id="0,0"></li>
+        <li class="blank" id="0,1"></li>
+        <li class="blank" id="0,2"></li>
+        <li class="blank" id="1,0"></li>
+        <li class="blank" id="1,1"></li>
+        <li class="blank" id="1,2"></li>
+        <li class="blank" id="2,0"></li>
+        <li class="blank" id="2,1"></li>
+        <li class="blank" id="2,2"></li>
+    </ul>
+
+    <div class="buttons">
+      <button id="newgame">New Game</button>
+      <button id="clearrecord">Clear Record</button>
+    </div>
+    <br>
+
+   
+    <div class="record">
+      <div class="stats windiv">
+        <h3>WINS:</h3>
+        <h4 id="wins">0</h4>
+      </div>
+      <div class="stats lossdiv">
+        <h3>LOSSES:</h3>
+        <h4 id="losses">0</h4>
+      </div>
+      <div class="stats tiediv">
+        <h3> TIES:</h3>
+        <h4 id="ties">0</h4>
+      </div>
+    </div>
+  
+    <div class="blurb">
+      <p>The player (you) plays as noughts against the computer, who plays as crosses. 
+        <a href="https://github.com/hunterthorpe/noughts_and_crosses" target="_blank">Click here</a> 
+        to see the code. See more at <a href="http://hunterthorpe.me/" target="_blank">hunterthorpe.me</a>
+      </p>
+    </div>
+
+<a href="index.html"></a>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="main.mjs"></script> 
+  </body>
+</html>
